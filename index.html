@@ -46,7 +46,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Enter 4-Digit PIN</h2>
+        <h2>Inserisci il PIN da 4 cifre</h2>
         <form id="passwordForm">
             <input type="password" id="digit1" maxlength="1">
             <input type="password" id="digit2" maxlength="1">
@@ -69,9 +69,9 @@
             const correctPIN = '1234'; // Replace with your 4-digit PIN
 
             if (enteredPIN === correctPIN) {
-                document.getElementById('message').innerText = 'Correct PIN! Here is your message: Hello, World!';
+                document.getElementById('message').innerText = 'PIN corretto. Sarai reindirizzato a momenti.';
             } else {
-                document.getElementById('message').innerText = 'Incorrect PIN. Please try again.';
+                document.getElementById('message').innerText = 'PIN errato. Per favore, riprova.';
             }
         });
     </script>
